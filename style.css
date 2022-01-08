@@ -1,0 +1,36 @@
+
+.content{
+    display: grid;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.banner{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    background-color: #3F7FBF;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px rgb(29, 28, 28);
+}
+.banner img{
+    max-width: 100%;
+    border-radius: 3px;
+    margin: 15%;
+    box-shadow: 1px 5px 10px rgb(29, 28, 28);
+}
+.banner h1{
+    text-align: center;
+}
+.lessons ul{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+
+}
+.lessons h2{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: #3F7FBF;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px rgb(29, 28, 28);
+}
