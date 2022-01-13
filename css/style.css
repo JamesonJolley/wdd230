@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 .content{
-    display: grid;
+    /*display: grid;*/
     max-width: 960px;
     margin: 0 auto;
     font-family: Ubuntu;
@@ -20,8 +20,7 @@
 }
 .banner h1{
     text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
+    align-self: center;
     
 }
 .lessons ul{
