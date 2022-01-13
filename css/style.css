@@ -33,6 +33,7 @@
     font-family: monospace;
 }
 footer{
+    padding: 5px;
     text-align: center;
     background-color: #3F7FBF;
     border-radius: 3px;
