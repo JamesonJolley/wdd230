@@ -8,9 +8,10 @@ body{
 
 }
 img{
-    max-width: 75%;
+    max-width: 95%;
     border-radius: 3px;
     margin: 2% auto;
+    border: 1px solid black;
     box-shadow: 1px 5px 10px rgb(29, 28, 28);
 }
 section{
@@ -22,6 +23,7 @@ section{
     
 }
 header{
+    
     border-radius: 3px;
     font-family: monospace;
     width: 100%;
@@ -39,4 +41,7 @@ footer{
     box-shadow: 1px 1px 10px rgb(29, 28, 28);
     font-family: monospace;
     grid-column: 1/-1;
+}
+p{
+    margin: 1% 3%;
 }
