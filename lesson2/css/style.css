@@ -32,10 +32,11 @@ h1,h2,h3{
     margin-left: 3%;
 }
 footer{
-    padding: 5px;
+    width: 100%;
     text-align: center;
     background-color: #3F7FBF;
     border-radius: 3px;
     box-shadow: 1px 1px 10px rgb(29, 28, 28);
     font-family: monospace;
+    grid-column: 1/-1;
 }
