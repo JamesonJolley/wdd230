@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+    display: grid;
+    font-family: Ubuntu;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+img{
+    max-width: 75%;
+    border-radius: 3px;
+    margin: 2% auto;
+    box-shadow: 1px 5px 10px rgb(29, 28, 28);
+}
+section{
+    display: grid;
+    border: 1px solid black;
+    box-shadow: 1px 5px 10px rgb(29, 28, 28);
+    border-radius: 3px;
+    min-width: 320px;
+    
+}
+header{
+    border-radius: 3px;
+    font-family: monospace;
+    width: 100%;
+    background-color: #3F7FBF;
+    grid-column: 1/-1;
+}
+h1,h2,h3{
+    margin-left: 3%;
+}
+footer{
+    padding: 5px;
+    text-align: center;
+    background-color: #3F7FBF;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px rgb(29, 28, 28);
+    font-family: monospace;
+}
