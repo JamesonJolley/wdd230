@@ -23,7 +23,8 @@ section{
     
 }
 header{
-    
+    box-shadow: 1px 5px 10px rgb(29, 28, 28);
+    border: 1px solid black;
     border-radius: 3px;
     font-family: monospace;
     width: 100%;
