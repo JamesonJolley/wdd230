@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{  
+    font-family: Ubuntu;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: #757780;
+}
+.content{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color:white ;
+    font-family: ubuntu;
+}
+img{
+    max-width: 90%;
+    border-radius: 3px;
+    
+    margin-left: 5%;
+}
+header{
+    box-shadow: 1px 1px 10px rgb(29, 28, 28);
+    border-radius: 3px;
+    background-color: black;
+    color: #C2E812;
+    padding: 0%;
+    
+}
+h1,h2,h3{
+    margin: 1% 3% ;
+    padding: 1%;
+    font-family: Lato;
+    background-color: black;
+    border-radius: 3px;
+    color: #C2E812;
+}
+footer{
+    padding:3px 0px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: #C2E812;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px rgb(29, 28, 28);
+   
+}
+p{
+    margin: 1% 3%;
+}
+nav{
+    display: grid;
+    grid-template: 1fr/repeat(5,1fr);
+    gap: 1%;
+    font-family: Lato;
+    
+}
+button{
+    margin: 3% 3%;
+    background-color:white ;
+    border-radius: 3px;
+    border-color:#757780;
+    padding: 1% 0.1%;
+}
+button:hover{
+    background-color: #C2E812;
+    
+}
+#active{
+    background-color: #C2E812;
+}
+.colors{
+    margin: 1% 3% ;
+    padding: 1%;
+    font-family: Lato;
+}
+.colors div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-family: monospace;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.sonicsilver{
+    background-color: #757780;
+}
+.bitterlemon{
+    background-color: #C2E812;
+}
+.Personas{
+    display: grid;
+    grid-template: 1fr/ repeat(2,1fr);
+    justify-items: center;
+    padding-top: 0;
+    
+}
+.Personas section{
+    max-width: 90%;
+    border: 1px solid black;
+    padding: 0%;
+    display: grid;
+    border-radius: 3px;
+}

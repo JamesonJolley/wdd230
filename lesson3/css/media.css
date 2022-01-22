@@ -1,0 +1,23 @@
+@media only screen and (max-width: 425px) {
+    body {
+        display: inline;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        grid-template: repeat(5,1fr)/ 1fr;
+        gap: 0px;
+    }
+    button{
+        margin: 0px ;
+    }
+    .Personas{
+        display: inline;
+        
+    }
+    .Personas section {
+        margin-left: 5%;
+        
+    }
+}
