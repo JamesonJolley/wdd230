@@ -4,10 +4,15 @@
 header img{
     width: 100%;
 }
-header,h1,h2,h3,nav,footer{
+header,h1,h2,h3,nav,footer,#time{
     color:#C2E812;
     background-color:#000000;
     font-family:Lato;
+	margin: 0%;
+	padding: 1%;
+}
+h1,h2,h3{
+	padding-left: 3%;
 }
 body{
     color:#000000;
@@ -19,6 +24,12 @@ main{
     background-color:#ffffff;
     font-family:ubuntu;
     max-width: 960px;
+	margin: 1%;
+	
+}
+p{
+	margin: 1%;
+	padding: 3%;
 }
 nav {
 	margin: 0 auto;
@@ -26,9 +37,26 @@ nav {
     background-color:#000000;
 
 }
+footer{
+	text-align: center;
+	display: grid;
+	grid-template: 1fr/ 100px 1fr;
+}
+footer img{
+	width: 100%;
+}
+footer p{
+	padding: 0;
+	margin: auto auto;
+}
+.bar img{
+	max-width: 20px;
+}
+
 .navigation {
 	list-style: none;
 	padding: 0;
+	margin: 0%;
 }
 .navigation li:first-child {
 	display: block;
@@ -36,7 +64,7 @@ nav {
 .navigation li {
 	display: none;
 }
-.navigation a {
+.navigation a,#time {
 	display: block;
 	padding: 0.75rem;
 	text-align: left;
@@ -46,13 +74,22 @@ nav {
 	transition: 0.5s;
 	font-size: clamp(1rem, 2vmin, 1.5rem);
 }
+#time{
+	background-color: #757780;
+}
+.bar a{
+	padding: 0.75rem;
+}
+.bar{
+	display: flex;
+}
 
 .navigation a.ham::before {
 	content: "🍔 ";
 }
 
 .navigation a:hover {
-	background-color: black;
+	background-color: #757780;
 }
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.

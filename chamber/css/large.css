@@ -1,0 +1,24 @@
+@media only screen and (min-width: 768px) {
+    header img{
+       
+        margin: 0 auto;
+    }
+    header{
+        display: grid;
+        grid-template:1fr/ 135px 1fr ;
+        padding: 0;
+    }
+    main{
+        margin: 1% auto;
+        max-width: 90%;
+    }
+    footer{
+        margin: 1% auto;
+        max-width: 91%;
+        padding: 0%;
+    }
+    nav{
+        margin:auto 0;
+    }
+
+  }
