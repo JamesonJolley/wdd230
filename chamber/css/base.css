@@ -84,19 +84,23 @@ footer p{
 }
 #time{
 	background-color: #757780;
+	border:1px solid #C2E812;
 }
 .bar a{
 	padding: 0.75rem;
+	
+	
 }
 .bar{
 	display: flex;
+	height: 90%;
 }
 
 .navigation a.ham::before {
 	content: "🍔 ";
 }
 
-.navigation a:hover {
+.navigation li:hover {
 	background-color: #757780;
 }
 
