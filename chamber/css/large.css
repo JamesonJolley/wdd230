@@ -10,15 +10,23 @@
     }
     main{
         margin: 1% auto;
-        max-width: 90%;
+        max-width: 960px;
     }
     footer{
         margin: 1% auto;
-        max-width: 93%;
+        max-width: 1000px;
         padding: 0%;
     }
     nav{
         margin:auto 0;
+    }
+    #nav-bar{
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */
+    }
+    .content{
+        margin-top: 150px;
     }
 
   }
