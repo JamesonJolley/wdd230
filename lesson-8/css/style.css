@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+#table1{
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px 5px #000000;
+    min-width: 300px;
+    background-color: #000000;
+    font-family: ubuntu;
+}
+tr{
+    background-color: cadetblue;
+}
+tr:nth-child(odd){
+    background-color:lightgray;
+}
+#head,#foot{
+    background-color:whitesmoke;
+    font-family: sans-serif;
+}
+#blackf{
+    font-style: italic;
+}
+#extra{
+    background-color: gray;
+}
