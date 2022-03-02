@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+section{
+    border: 1px solid black;
+    padding: 5px;
+    max-width: 300px;
+    font-family: Hubballi;
+    background-color: lightgrey;
+}
+img{
+    width: 100%;
+    box-shadow: 3px 7px 12px 6px rgba(0,0,0,0.42);
+}
