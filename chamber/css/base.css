@@ -115,3 +115,16 @@ footer p{
 	content: "❌ ";
 }
 
+.top,.sbs{
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+}
+input{
+	min-width: 0;
+	width: calc(100%);
+}
+textarea{
+	min-width: 0;
+	width: calc(100%);
+}
