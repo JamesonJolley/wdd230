@@ -1,10 +1,21 @@
 const contaner = document.querySelector('#cards')
+const requestURL = "https://jamesonjolley.github.io/wdd230/chamber/data/data.json"
 
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    //console.table(jsonObject); //temporary checking for valid response and data parsing
+    const cards = jsonObject["companies"];
+    
+    cards.forEach(element => {
+      makeCard(element)
+    });
+  });
 
-fetch("data/data.json")
-  .then(response => response.json())
-  .then(json => console.log(json));
-
+ 
+ 
 const makeCard = (data) =>{
     let address = document.createElement("p")
     let phone = document.createElement("p")
