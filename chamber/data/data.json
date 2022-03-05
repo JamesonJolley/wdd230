@@ -1,94 +1,28 @@
 
 {
-    "example":{
+    "companies":[
+        
+        {
     "name":"test one",
     "link":"this is a link",
     "logo":"thjs is a logo",
     "phone":"1800-444-444",
     "address":"address"
         },
-    "example1":{
-        "name":"test one",
-        "link":"this is a link",
-        "logo":"thjs is a logo",
-        "phone":"1800-444-444",
-        "address":"address"
+        {
+    "name":"test one",
+    "link":"this is a link",
+    "logo":"thjs is a logo",
+    "phone":"1800-444-444",
+    "address":"address"
         },
-    "example2":{
-        "name":"test one",
-        "link":"this is a link",
-        "logo":"thjs is a logo",
-        "phone":"1800-444-444",
-        "address":"address"
-        },
-    "example3":{
-        "name":"test one",
-        "link":"this is a link",
-        "logo":"thjs is a logo",
-        "phone":"1800-444-444",
-        "address":"address"
-        },
-    "example4":{
-        "name":"test one",
-        "link":"this is a link",
-        "logo":"thjs is a logo",
-        "phone":"1800-444-444",
-        "address":"address"
-        },
-    "example5":{
-        "name":"test one",
-        "link":"this is a link",
-        "logo":"thjs is a logo",
-        "phone":"1800-444-444",
-        "address":"address"
-        },
-    "example6":{
-        "name":"test one",
-        "link":"this is a link",
-        "logo":"thjs is a logo",
-        "phone":"1800-444-444",
-        "address":"address"
-        },
-    "example7":{
-        "name":"test one",
-        "link":"this is a link",
-        "logo":"thjs is a logo",
-        "phone":"1800-444-444",
-        "address":"address"
-        },
-    "example8":{
-        "name":"test one",
-        "link":"this is a link",
-        "logo":"thjs is a logo",
-        "phone":"1800-444-444",
-        "address":"address"
-        },
-    "example9":{
-        "name":"test one",
-        "link":"this is a link",
-        "logo":"thjs is a logo",
-        "phone":"1800-444-444",
-        "address":"address"
-        },
-    "example10":{
-        "name":"test one",
-        "link":"this is a link",
-        "logo":"thjs is a logo",
-        "phone":"1800-444-444",
-        "address":"address"
-        },
-    "example11":{
-        "name":"test one",
-        "link":"this is a link",
-        "logo":"thjs is a logo",
-        "phone":"1800-444-444",
-        "address":"address"
-        },
-    "example12":{
-        "name":"test one",
-        "link":"this is a link",
-        "logo":"thjs is a logo",
-        "phone":"1800-444-444",
-        "address":"address"
-        }        
+        {
+    "name":"test one",
+    "link":"this is a link",
+    "logo":"thjs is a logo",
+    "phone":"1800-444-444",
+    "address":"address"
+         }
+    
+    ]
 }
