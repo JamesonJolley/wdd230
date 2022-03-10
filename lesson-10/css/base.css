@@ -1,0 +1,14 @@
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 500px;
+    
+}
+#icon-src{
+    font-family: monospace;
+}
+h1{
+    background-color: lightgray;
+}
