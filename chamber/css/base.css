@@ -140,7 +140,8 @@ li img{
 }
 
 .card{
-	max-width: 200px;
+	width: 200px;
+	height: 350px;
 	border: 1px solid black;
 	box-shadow: 1px 1px 5px 1px #000000;
 	background-color: #ffffff;
@@ -159,4 +160,13 @@ li img{
 
 .card:hover{
 	transform: scale(1.1);
+}
+
+.disclamer{
+	font-family: monospace;
+	font-size: 0.5em;
+}
+._card:link{
+	text-decoration: none;
+	color:#000000
 }

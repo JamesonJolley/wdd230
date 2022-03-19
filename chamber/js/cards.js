@@ -25,11 +25,16 @@ const makeCard = (data) =>{
     let card = document.createElement("div")
     let link = document.createElement('a')
 
+    link.target ='_blank'
+    link.href= data.link
+    link.className = '_card' 
+
     card.className = 'card'
     address.innerText = data.address
     phone.innerText = data.phone
     logo.src = data.logo
     logo.loading = "lazy"
+    logo.alt = `${data.name}'s logo`
     name.innerHTML = data.name
 
     card.appendChild(name)
@@ -37,5 +42,6 @@ const makeCard = (data) =>{
     card.appendChild(address)
     card.appendChild(phone)
 
-    contaner.append(card)
+    link.appendChild(card)
+    contaner.append(link)
 }
