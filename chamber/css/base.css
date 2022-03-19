@@ -138,3 +138,25 @@ li img{
 	padding: 0;
 	
 }
+
+.card{
+	max-width: 200px;
+	border: 1px solid black;
+	box-shadow: 1px 1px 5px 1px #000000;
+	background-color: #ffffff;
+}
+.card img{
+	border: 1px solid black;
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.card:hover{
+	transform: scale(1.1);
+}
