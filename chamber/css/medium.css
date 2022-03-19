@@ -15,4 +15,9 @@
 	.navigation li:first-child {
 		display: none;
 	}
+	#nav-bar{
+		display: grid;
+		grid-template:1fr/ 135px 1fr ;
+		padding: 0;
+	}
 }

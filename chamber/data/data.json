@@ -3,26 +3,76 @@
     "companies":[
         
         {
+    "name":"The Place",
+    "link":"this is a link",
+    "logo":"https://creator.design/_logos/65/logo-65_07.png",
+    "phone":"1800-444-444",
+    "address":"address"
+        },
+        {
+    "name":"Cornerstone",
+    "link":"this is a link",
+    "logo":"https://www.clipartmax.com/png/middle/217-2178587_cornerstone-random-business-logos.png",
+    "phone":"1800-651-564",
+    "address":"address"
+        },
+        {
+    "name":"Core city",
+    "link":"this is a link",
+    "logo":"https://i.pinimg.com/originals/2c/42/bc/2c42bc75e7f07f3561e0b5160ecc98d6.png",
+    "phone":"1800-444-444",
+    "address":"address"
+         },
+         {
+    "name":"Dots Tech",
+    "link":"this is a link",
+    "logo":"https://i.pinimg.com/originals/db/7a/ff/db7aff48113e9d40f144d078a82feea4.png",
+    "phone":"1800-444-444",
+    "address":"address"
+         },
+        {
+    "name":"test one",
+    "link":"this is a link",
+    "logo":"https://cdn.dribbble.com/users/1183222/screenshots/4620427/media/dd0420007f4893a79969f332141d5171.png?compress=1&resize=400x300&vertical=top",
+    "phone":"1800-444-444",
+    "address":"address"
+         },
+    {
     "name":"test one",
     "link":"this is a link",
     "logo":"thjs is a logo",
     "phone":"1800-444-444",
     "address":"address"
-        },
-        {
+         },
+    {
     "name":"test one",
     "link":"this is a link",
     "logo":"thjs is a logo",
     "phone":"1800-444-444",
     "address":"address"
-        },
-        {
+         },
+    {
+    "name":"test one",
+    "link":"this is a link",
+    "logo":"thjs is a logo",
+    "phone":"1800-444-444",
+    "address":"address"
+         },
+    {
+    "name":"test one",
+    "link":"this is a link",
+    "logo":"thjs is a logo",
+    "phone":"1800-444-444",
+    "address":"address"
+         },
+    {
     "name":"test one",
     "link":"this is a link",
     "logo":"thjs is a logo",
     "phone":"1800-444-444",
     "address":"address"
          }
+    
     
     ]
 }
