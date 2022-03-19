@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber of WDD230 home</title>
+    <title>Chamber of Carlsbad home</title>
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -29,55 +29,42 @@
                 <li><a href="Contact.html">Contact us</a></li>
                 <li><a href="https://www.facebook.com/" target="_blank"><img src="images/Facebook-logo.png" alt="Facebook"></a></li>
                 <li><a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="Facebook"></a></li>
+                
             </ul>
         </nav>
     </header>
-    <main class="content">
+    <main class="join-content">
         
         
         <section id = 'intro'> 
             <header>
-                <h1>Welcome to camber of Carlsbad</h1>     
+                <h1>Contact camber of Carlsbad</h1>     
             </header>
             <picture loading="lazy">
                 <source srcset="images/resized-image-Promo 1008x567 pixels.jpeg" media="(min-width:500px) and (max-width:800px)">
                 <source srcset="images/Carlsbad_Caverns_National_Park_-_New_Mexico_-_USA_-_8.jpg" media="(min-width:801px)">
                 <img src="images/resized-image-Promo 403x226 pixels.jpeg" alt="hero-image">
             </picture>
-            <p>Our purpose is to bring together businesses in the community to work together and strengthen each other. We intend to provide a network of businesses that can advocate on behalf of the local community, provide advertisement, and generate interest in our community.</p>
-             <div id ='join'>
-                <header>
-                    <h1>Join us today!</h1>
-                </header>
-            </div>
-        </section>
-        <section id ='events'>
-            <header>
-                <h1>Event</h1>
-            </header>
-                <p>This week don't miss a special event held at the community center in Carlsbad New Mexico. Come bring your family and friends for an enjoyable evening by the river at the community center it will be held on Friday at 6 p.m.</p>
-        </section>
+            <h3>Have questions or concerns? Fill out the form below and a representative will contact you.</h3>
 
-        <section id="wether" >
-            <header><h1>Wether</h1></header>
-            <div id='time'></div>
-            
-
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <label class="top">First Name * <input type="text" name="fname" required=""></label>
+                    <label class="top">Last Name * <input type="text" name="lname" required=""></label>
+                    <label class="top">Business Position <input type="text" name="bposition"></label>
+                    <label class="top">Phone * <input type="tel" name="phone" placeholder="1235551234" required=""></label>
+                    <label class="top">Email * <input type="email" name="email" placeholder="example@email.com" required=""></label>
+                    <label class="top">Questons <textarea name="questons" rows="10" cols="40" placeholder="Write questons here"></textarea></label>
+                </fieldset>
+                
+                <input type="submit" value="Contact" class="submitBtn">
+            </form>
         </section>
         
-        <section id="spotlight">
-         <header><h1>Spotlights</h1></header>
-            <main id="cards">
-            
-            </main>
-        </section>
-    </main>
     <footer>
         <img class="logo" src="images/4JMyeUW-new-mexico-zia-by-nicola-vector.svg" alt="logo">
     </footer>
 </body>
-
-<script src="js/wether.js"></script>
 <script src="js/script.js" defer></script>
-<script src="js/spotlight.js" defer></script>
+
 </html>

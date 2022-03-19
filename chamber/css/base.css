@@ -26,7 +26,6 @@ main{
     color:#000000;
     background-color:#ffffff;
     font-family:ubuntu;
-    max-width: 960px;
 	margin: 1%;
 	padding: 1%;
 	
@@ -169,4 +168,25 @@ li img{
 ._card:link{
 	text-decoration: none;
 	color:#000000
+}
+
+.Gallery picture img{
+	max-width: 200px;
+
+}
+#WContaner{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#wether{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+#wether img{
+	justify-items: center;
+	margin: 0 auto;
+	width: 100px;
 }
