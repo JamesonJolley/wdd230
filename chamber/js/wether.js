@@ -1,7 +1,9 @@
 const wetherContaner = document.querySelector('#wether')
 const temp = 40 
 const windspeed = 5 
-const apiKey = '0b23547fb1e8ec23669e9206b702289d'
+const apiKey ='0b23547fb1e8ec23669e9206b702289d'
+const zip ='88220'
+const apyurl =`https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=${apiKey}`
 
 function printcard(windChill){
     wetherContaner.innerHTML =`

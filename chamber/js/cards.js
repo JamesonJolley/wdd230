@@ -14,6 +14,7 @@ fetch(requestURL)
     });
   });
 
+
  
  
 const makeCard = (data) =>{
