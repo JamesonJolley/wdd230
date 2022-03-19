@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
 
-    
+    <script src="js/wether.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/spotlight.js" defer></script>
 </head>
 <body>
     <header id="nav-bar"> 
@@ -21,7 +23,7 @@
         </div>
         <nav>
             <ul class="navigation">                    
-                <li><a class="ham" href="#">&#9776 Menu</a></li>
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
                 <li id="current"><a href="index.html">Home</a></li>
                 <li><a href="directory.html">directory</a></li>
                 <li><a href="join.html">Join</a></li>
@@ -39,10 +41,10 @@
             <header>
                 <h1>Welcome to camber of Carlsbad</h1>     
             </header>
-            <picture loading="lazy">
-                <source srcset="images/resized-image-Promo 1008x567 pixels.jpeg" media="(min-width:500px) and (max-width:800px)">
+            <picture>
+                <source srcset="images/resized-image-Promo1008x567pixels.jpeg" media="(min-width:500px) and (max-width:800px)">
                 <source srcset="images/Carlsbad_Caverns_National_Park_-_New_Mexico_-_USA_-_8.jpg" media="(min-width:801px)">
-                <img src="images/resized-image-Promo 403x226 pixels.jpeg" alt="hero-image">
+                <img src="images/resized-image-Promo403x226pixels.jpeg" alt="hero-image">
             </picture>
             <p>Our purpose is to bring together businesses in the community to work together and strengthen each other. We intend to provide a network of businesses that can advocate on behalf of the local community, provide advertisement, and generate interest in our community.</p>
              <div id ='join'>
@@ -67,9 +69,9 @@
         
         <section id="spotlight">
          <header><h1>Spotlights</h1></header>
-            <main id="cards">
+            <div id="cards">
             
-            </main>
+            </div>
         </section>
     </main>
     <footer>
@@ -77,7 +79,5 @@
     </footer>
 </body>
 
-<script src="js/wether.js"></script>
-<script src="js/script.js" defer></script>
-<script src="js/spotlight.js" defer></script>
+
 </html>
