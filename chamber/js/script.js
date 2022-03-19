@@ -9,10 +9,13 @@ copyright.append(`| © ${year} Chamber of WDD230 | Jameson M. Jolley | WDD 230 |
 footer.appendChild(copyright)
 
 let date = new Date()
-document.querySelector('#time').innerHTML = Intl.DateTimeFormat("en-UK", {
+
+time =document.querySelector('#time')
+if(time != null){
+time.innerHTML = Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"
 }).format(date);
-
+}
 
 const hambutton = document.querySelector('.ham');
 const mainnav = document.querySelector('.navigation')
