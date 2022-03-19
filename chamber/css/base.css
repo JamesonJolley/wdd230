@@ -157,10 +157,6 @@ li img{
     gap: 5px;
 }
 
-.card:hover{
-	transform: scale(1.1);
-}
-
 .disclamer{
 	font-family: monospace;
 	font-size: 0.5em;
