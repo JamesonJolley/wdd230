@@ -14,7 +14,7 @@ function printcard(iconsrc,temp,windSpeed,windChill,weatherDesc){
 
     windC.innerHTML = `Windchill:${windChill}`
     windS.innerHTML = `Windspeed:${windSpeed}`
-    F.innerHTML = `${temp}&#8457`
+    F.innerHTML = `${temp}&#8457;`
     iconimg.src = iconsrc
     iconimg.alt = "wether icon"
     iconimg.loding = 'lazy'
@@ -35,7 +35,7 @@ const compute = (temp,windspeed)=>{
     return out
 }
 fetch(apyurl).then((response) => response.json()).then((jsObj)=>{
-    console.log(jsObj)
+    //console.log(jsObj)
     const iconsrc= `https://openweathermap.org/img/w/${jsObj.weather[0].icon}.png`;
     const temp = jsObj.main.temp;
     const weatherDesc = jsObj.weather[0].description;

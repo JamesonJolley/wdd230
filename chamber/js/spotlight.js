@@ -13,10 +13,13 @@ fetch(requestURL)
     cards.forEach(element => {
       _cards.push(element)
     });
-   for (let i = 0; i < 3; i++) {
-    
-    makeCard(_cards[getRandomInt(10)])
-    
+   for (let i = 0; i < 3; ) {
+
+    cardnum = getRandomInt(10)
+    if(_cards[cardnum].membership == 'Gold'||'Silver'){
+      i++
+      makeCard(_cards[cardnum])
+    }
   }
   });
  
