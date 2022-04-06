@@ -1,6 +1,6 @@
 const wetherContaner = document.querySelector('#wether')
 const apiKey ='0b23547fb1e8ec23669e9206b702289d'
-const zip ='88220'
+const zip ='43215'
 const apyurl =`https://api.openweathermap.org/data/2.5/weather?zip=${zip},US&units=imperial&appid=${apiKey}`
 
 

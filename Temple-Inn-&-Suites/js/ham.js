@@ -20,7 +20,11 @@ ham.addEventListener('click', ()=>{
 const pages = [
     ['Home','index.html'],
     ['Services','services.html'],
-    ['About','about.html'],
+    ['Reservation','reserve.html'],
+    ['Reception','reception.html'],
+    ['Missionary','missionary.html'],
+    ['Temple','Temple.html']
+
 ]
 
 pages.forEach(element => {
@@ -32,6 +36,17 @@ pages.forEach(element => {
     list.appendChild(li)
     
 });
+const fSocial = document.createElement('li')
+fSocial.innerHTML=`
+<a href="https://www.facebook.com/" target="_blank"><img class="soimg" src="images/Facebook-logo.png" alt="Facebook"></a>
+`
+list.appendChild(fSocial)
+const inSocial = document.createElement('li')
+inSocial.innerHTML=`
+<a href="https://www.instagram.com/" target="_blank"><img class="soimg" src="images/instagram.png" alt="Facebook"></a>
+`
+list.appendChild(inSocial)
+
 nav.appendChild(ham)
 nav.appendChild(list)
 banner.appendChild(nav)

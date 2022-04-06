@@ -1,7 +1,6 @@
 
 {
-    "companies":[
-        
+    "companies":[      
         {
     "name":"The Place",
     "link":"this is a link",
@@ -82,7 +81,5 @@
     "address":"6949 Kayla Crescent",
     "membership":"Bronze"
          }
-    
-    
     ]
 }
