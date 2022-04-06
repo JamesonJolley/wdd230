@@ -7,4 +7,27 @@
         right: auto;
         top: 75px;
     }
+    #wether{
+       /*grid layouts*/
+        grid-column: 2/-2;
+       
+    }
+    .responsive{
+        text-decoration: none;
+        list-style-type: none;
+        margin: 0%;
+        padding: 5px;
+        display: grid;
+        gap: 10px;
+        position: relative;
+        
+        background-color: #557fff;
+        border-radius: 0 10% 10% 0;
+        border: 1px solid black;
+        
+    }
+
+    #ham{
+        display: none;
+    }
 }

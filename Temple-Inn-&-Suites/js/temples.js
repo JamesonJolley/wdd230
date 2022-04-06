@@ -16,7 +16,7 @@ fetch(requestURL).then(function (response) {
 const makeCard =(element)=>{
     let card = document.createElement("div")
     card.className = 'card'
-    let name = document.createElement('h1')
+    let name = document.createElement('h2')
     name.innerText = element.name
     card.appendChild(name)
 

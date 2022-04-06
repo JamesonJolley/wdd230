@@ -28,21 +28,28 @@ nav{
     position: absolute;
     top: 15px;
     right: 15px;
+    
 }
 
 nav ul{
     text-decoration: none;
     list-style-type: none;
-    margin: 1%;
-    padding: 10%;
-    display: flex;
-    flex-direction: column;
-    gap: 10%;
+    margin: 0%;
+    padding: 5px;
+    display: grid;
+    gap: 10px;
     position: relative;
-    align-items: center;
-    background: #557fff;
-    border-radius: 25% 10%;
+    
+    background-color: #557fff;
+    border-radius:10%;
     border: 1px solid black;
+}
+nav ul li{
+    font-family: Oswald;
+    font-weight:  bold;
+}
+nav ul li:hover{
+    background-color: #557fff;
 }
 /*this is the ham resonive stuff*/
 
@@ -163,5 +170,5 @@ textarea{
 }
 
 .card a{
-    color: black;
+    color: #557fff;
 }
