@@ -6,7 +6,7 @@ fetch(requestURL).then(function (response) {
   })
   .then(function (jsonObject) {
     //console.table(jsonObject); //temporary checking for valid response and data parsing
-    const cards = jsonObject;
+    const cards = jsonObject['Temples'];
     
     cards.forEach(element => {
       makeCard(element)
