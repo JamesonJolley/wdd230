@@ -1,0 +1,10 @@
+@media only screen and (min-width: 800px){
+    #content,#content-home{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    nav{
+        right: auto;
+        top: 75px;
+    }
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Quicksand&display=swap');
+
+body{
+    background-color: gainsboro;
+}
+#content,#content-home{
+    margin-bottom: 25px;
+    font-family: Quicksand;
+    background-color: white;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Oswald;
+}
+#foot{
+    max-height: 25px;
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    grid-template-rows: 25px ;
+    background-color: #557fff; 
+    width: 100%; 
+}
+.icon{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: grid;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+nav ul{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 1%;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    position: relative;
+    align-items: center;
+    background: #557fff;
+    border-radius: 25% 10%;
+    border: 1px solid black;
+}
+/*this is the ham resonive stuff*/
+
+#ham{
+    margin: 0;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #557fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    position: relative;
+    border: 1px solid black
+}
+#ham:hover{
+    border: 1px solid black;
+    background-color: #295efc;
+}
+.responsive{
+    display: none;
+}
+#ham p{
+    margin: auto 0;
+    padding: 0;
+    
+}
+img{
+    width: 100%;
+}
+
+#banner{
+    display: grid;
+
+}
+#title{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 50px;
+    background: white;
+    border: 1px solid black;
+}
+#title div h3,h5{
+    margin: 0 ;
+}
+#title div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+#book{
+    position: absolute;
+    right: 33%;
+    left: 33%;
+    top:15%;
+    
+    display: flex;
+    justify-content: center;
+}
+#book p{
+    display: none;
+}
+input{
+	min-width: 0;
+	width: calc(100%);
+}
+textarea{
+	min-width: 0;
+	width: calc(100%);
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-row: 1fr;
+}
