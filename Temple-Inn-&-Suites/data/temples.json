@@ -3,19 +3,22 @@
         "name":"Albuquerque New Mexico Temple",
         "Telephone":"(1) 505-822-5110",
         "Address":"10301 San Francisco Rd NE Albuquerque NM 87122-3437 United States",
-        "img":"https://assets.ldscdn.org/84/30/8430e42b9e16ea89948715d8311619543a7c57bd/albuquerque_new_mexico_temple.jpeg"
+        "img":"https://assets.ldscdn.org/84/30/8430e42b9e16ea89948715d8311619543a7c57bd/albuquerque_new_mexico_temple.jpeg",
+        "link":"https://www.churchofjesuschrist.org/temples/map?lang=eng&templeName=albuquerque-new-mexico-temple"
   },
   "Lubbock Texas Temple":{
         "name":"Lubbock Texas Temple",
         "Telephone":"(1) 806-794-0774",
         "Address":"7016 Frankford Ave Lubbock TX 79424 United States",
-        "img":"https://assets.ldscdn.org/e2/d1/e2d192e2b4ecc6afcb6fdc1bd3bb6a7071be4712/lubbock_temple_lds.jpeg"
-  },
+        "img":"https://assets.ldscdn.org/e2/d1/e2d192e2b4ecc6afcb6fdc1bd3bb6a7071be4712/lubbock_temple_lds.jpeg",
+        "link":"https://www.churchofjesuschrist.org/temples/map?lang=eng&templeName=lubbock-texas-temple"
+  },    
   "Columbus Ohio Temple":{
         "name":"Columbus Ohio Temple",
         "Telephone":"none",
         "Address":"3870 Gateway Blvd Columbus OH 43228-9747 United States",
-        "img":"https://assets.ldscdn.org/06/86/0686bff214918f0cb079dae08bdde345a495637a/temple_exterior_columbus_ohio.jpeg"
+        "img":"https://assets.ldscdn.org/06/86/0686bff214918f0cb079dae08bdde345a495637a/temple_exterior_columbus_ohio.jpeg",
+        "link":"https://www.churchofjesuschrist.org/temples/map?lang=eng&templeName=columbus-ohio-temple"
   }
 
 }
