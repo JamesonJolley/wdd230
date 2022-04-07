@@ -10,6 +10,10 @@ body{
 }
 h1,h2,h3,h4,h5,h6{
     font-family: Oswald;
+    padding-left:5px ;
+}
+p{
+    padding-left:5px ; 
 }
 #foot{
     max-height: 25px;
@@ -180,4 +184,10 @@ textarea{
 }
 .card a{
     color: #557fff;
+}
+
+button{
+    font-weight: bold;
+    font-family: Oswald;
+    font-size: larger;
 }
